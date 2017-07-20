@@ -5,4 +5,5 @@ Scenario: user input user name
   Given user navigates to login page
   When user clicks on the user name textbox and inputs "alon.zanbar@hpe.com" 
   Then user should see "user name verified"
+  Then password field should be focused 
  
